@@ -1,0 +1,92 @@
+.header{ 
+    position: fixed;
+    width: 100%;
+    padding: 20px auto;
+    
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* for scrolling */
+    transition: background-color 0.6s ease-in-out ,color 0.3s ease-in-out;;
+    z-index: 1000;
+    
+    
+}
+
+
+/* for scrolling */
+
+.header.scrolled{
+    background-color: var(--bg-color) ;
+    color: black;
+     /* New background color when scrolled */
+  }
+
+.header.scrolled .links>li a{
+    color:var(--text-black-color);
+    
+}
+
+.header.scrolled .links>li a:hover{
+    color: var(--hover-light-red);
+    
+    
+}
+.header.scrolled .icon:hover {
+    color: var(--hover-light-red);
+
+}
+.header.scrolled .links>li:hover{transform:scale(1.1);}
+
+.header.scrolled .icon{
+    color: var(--text-black-color);
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+ 
+/* for scrolling */
+
+
+
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    
+}
+
+.links{
+    display: flex;
+    gap: 50px;
+    
+}
+.links>li a{
+    color:var(--text-white);
+}
+
+/* hover */
+.links>li a:hover,
+.icon:hover{
+    color: var(--hover-light-red);
+    transition: 0.4s ease-in-out;
+    
+    
+}
+.links>li:hover{transform:scale(1.1);}
+
+/* icons */
+.icons{
+    display: flex;
+    gap: 25px;
+}
+.icon{
+    color: var(--text-white);
+    cursor: pointer;
+    font-size: 20px;
+    
+}
