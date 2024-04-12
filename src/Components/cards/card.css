@@ -1,0 +1,39 @@
+.cards{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    gap: 1.2rem;
+}
+.cards img{
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+    cursor: pointer; 
+}
+
+.card h3{
+    margin-top: 20px;
+    letter-spacing: 6px;
+    font-weight: 500;
+    line-height: 10px;
+}
+
+.card a{
+    color: var( --text-black-color);
+    width: fit-content;
+}
+.card a:hover{
+    color: var(--hover-light-red);
+}
+.card p{
+    font-weight:200 ;
+}
