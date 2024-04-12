@@ -1,5 +1,4 @@
 import './discorver.css'
-import discover from '/./public/discover.jpg';
 function Discorver() {
   return (
       <>
@@ -9,7 +8,7 @@ function Discorver() {
             <p>pato place</p>
                 
             </div>
-            {/* <img src={discover} alt="" /> */}
+           
           </div>
       </>
   )
