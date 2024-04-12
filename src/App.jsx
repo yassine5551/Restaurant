@@ -7,6 +7,7 @@ import Reservation from "./Components/5-reservation/Reservation"
 import Review  from "./Components/6-rev_view/Review"
 import Blog from "./Components/7-blog/Blog"
 import Footer from "./Components/8-footer/Footer"
+import Discorver from './Components/discorver/Discorver';
 
 
 
@@ -18,8 +19,15 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Discorver/>
       <Menu />
       <Reservation />
+      <Review />
+      <Blog />
+      <Footer />
+      <Review />
+      <Blog />
+      <Footer />
       <Review />
       <Blog />
       <Footer />

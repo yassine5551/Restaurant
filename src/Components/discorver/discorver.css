@@ -1,0 +1,38 @@
+.disco{
+    margin-top:100px ;
+    width: 100%;
+    background-color: black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/./public/discover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.disco p{
+    color: var(--text-white);
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2rem;
+    margin-bottom: 40px;
+    line-height: 80px;
+}
+
+.disco h3{
+    font-family: 'Courgette';
+   margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 1.2;
+    color: var(--text-dark-red);
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+
+.disco img{
+   
+}
