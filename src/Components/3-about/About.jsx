@@ -22,7 +22,7 @@ function About() {
           <FontAwesomeIcon className="iconAr" icon={faArrowRight} />
           </a>
         </div>
-          
+            
             <img className="imgAbout" src={about} alt="" />
          
         
