@@ -1,0 +1,48 @@
+.aboutContent{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+.h3{
+    position: absolute;
+    right: 53%;
+    font-size: 30px;
+    line-height: 1.2;
+    color: var(--text-dark-red);
+    text-align: center;
+    /* border: 1px solid #d61c22; */
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.imgAbout{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.contenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contenu h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+
+.iconAr{
+    margin-left: 5px;
+}
+
+
+.contenu p{
+    text-align: center;
+}
+
