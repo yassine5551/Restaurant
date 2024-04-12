@@ -25,12 +25,7 @@ function App() {
       <Review />
       <Blog />
       <Footer />
-      <Review />
-      <Blog />
-      <Footer />
-      <Review />
-      <Blog />
-      <Footer />
+      
     </>
   )
 }
