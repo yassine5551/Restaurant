@@ -6,9 +6,9 @@ function About() {
   return (
     <>
       <div className="aboutContent">
-          <h3 className="h3">Italian Restaurant</h3>
-          <div className="contenu">
           
+          <div className="contenu">
+          <h3 className="h3">Italian Restaurant</h3>
           <h1>WELCOME</h1>
           <p>
             Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est.Sed <br />

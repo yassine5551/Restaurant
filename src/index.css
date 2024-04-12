@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 *{
     margin: 0;
@@ -29,6 +30,6 @@ body{
     --text-black-color:#111111;
     --text-white:#FFFFFF;
     --gray-dark:#222222;
-    --gray-dark-light:#524d4d7c;
+    --gray-dark-light:#524e4eb2;
     --bg-color:#E7E7E7;
 }
