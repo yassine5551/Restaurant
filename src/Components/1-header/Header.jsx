@@ -27,7 +27,7 @@ function Header() {
 
   return (
     <>
-      <header className={`header border ${scrolled ? 'scrolled' : ''}`}>
+      <header className={`header  ${scrolled ? 'scrolled' : ''}`}>
         <div className="logo"><img src={logo} alt="" /></div>
 
         <ul className="links ">
