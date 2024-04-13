@@ -9,6 +9,8 @@ import Blog from "./Components/7-blog/Blog"
 import Footer from "./Components/8-footer/Footer"
 import Card from './Components/cards/Card';
 import Discorver from './Components/discorver/Discorver';
+import './index.css'
+
 
 
 
@@ -25,7 +27,7 @@ function App() {
       <Menu />
       <Reservation />
       <Review />
-      <Blog />
+
       <Footer />
       
     </>

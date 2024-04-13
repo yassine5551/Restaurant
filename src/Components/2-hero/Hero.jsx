@@ -4,7 +4,7 @@ function Hero() {
   
   return (
     <>
-      <div className="container">
+      <div className="containe">
         <img src={heroImg2} alt="" />
         <div className='content'>
         <h1 className='welcome'>Welcome to</h1>

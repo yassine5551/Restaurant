@@ -8,7 +8,7 @@
     color: var(--text-white);
     text-align: center;
 }
-.container img{
+.containe img{
     width: 100%;
     height: 90%;
     object-fit: contain;
