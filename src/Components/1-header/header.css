@@ -64,6 +64,7 @@
 .links{
     display: flex;
     gap: 50px;
+
     
 }
 .links>li a{
@@ -90,4 +91,46 @@
     cursor: pointer;
     font-size: 20px;
     
+}
+/* hamburger menu  */
+.links.open {
+    display: block; /* show the menu when open */
+    position: absolute;
+    right: 50px;
+    top: 4px;
+    border: 1px solid var(--text-white);
+    width: 50vh;
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 20px 10px 20px;
+   border: 1px solid black;
+
+}
+.links.open a{
+    color: var(--text-black-color);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+  
+
+}
+
+.close-box{
+    width:50px ;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+   
+}
+
+@media (max-width: 1100px) {
+    .links{
+        display: none;
+    }
+    .header{
+        justify-content: space-between;
+    }
 }
