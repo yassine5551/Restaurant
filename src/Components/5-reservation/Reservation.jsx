@@ -6,6 +6,7 @@ import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPerson } from "@fortawesome/free-solid-svg-icons";
+import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 
 
 function Reservation() {
@@ -171,7 +172,10 @@ function Reservation() {
               </button>
             </div>
                 </form>
-                <span>{result}</span>
+                
+                
+                  <span className="text-xl ">{result}</span>
+                
         </div>
       </div>
     </div>
