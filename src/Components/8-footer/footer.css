@@ -1,3 +1,14 @@
 #title {
     color: var( --text-dark-red);
 }
+
+#red{
+    color: var( --text-dark-red);
+
+
+}
+
+#red:hover{
+    color: var( --text-white);
+    transition: all 0.9 ease-in-out;
+}

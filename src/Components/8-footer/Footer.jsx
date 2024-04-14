@@ -19,15 +19,16 @@ function Footer() {
         </p>
   
         <a
-          href="#"
-          className="mt-8 inline-block rounded-full bg-white text-red-700 border border-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-red-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
+              href="#"
+              id='red'
+          className="mt-8 inline-block rounded-full bg-white  border border-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-red-600 hover:text-white focus:outline-none focus:ring active:bg-red"
         >
           Reserver Un Table
         </a>
       </div>
   
       <div
-        className="mt-16 border-t border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-24 dark:border-gray-800"
+        className="mt-16 border-t border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-24 "
       >
         <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
           <li>
