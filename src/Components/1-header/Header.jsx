@@ -77,12 +77,10 @@ function Header() {
           <li>
             <a href="">contact</a>
           </li>
-          
+         
         </ul>
         <div className="icons">
-          <FontAwesomeIcon className="icon" icon={faFacebookF} />
-          <FontAwesomeIcon className="icon" icon={faInstagram} />
-          <FontAwesomeIcon className="icon" icon={faTwitter} />
+          
           <FontAwesomeIcon
             className="icon menu"
             icon={faBars}
