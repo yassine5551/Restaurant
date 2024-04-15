@@ -37,3 +37,19 @@
 .card p{
     font-weight:200 ;
 }
+
+@media  (max-width: 978px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .card{
+        display: flex;
+        justify-content: center;
+        text-align:center;
+        position: relative;
+       
+    }
+    
+}
