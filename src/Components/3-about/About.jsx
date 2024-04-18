@@ -13,7 +13,7 @@ function About() {
           <p>
             Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est.Sed <br />
             fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi,ac <br />
-            facilisis ligula sem id neque.
+            facilisis ligula sem  neque.
           </p>
 
           <a href="/" className="arrowLink">
