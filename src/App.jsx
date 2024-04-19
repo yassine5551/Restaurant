@@ -4,8 +4,8 @@ import Hero from "./Components/2-hero/Hero"
 import About from "./Components/3-about/About"
 // import Reservation from "./Components/5-reservation/Reservation"
 // import Footer from "./Components/8-footer/Footer"
-// import Card from './Components/cards/Card';
-// import Discorver from './Components/discorver/Discorver';
+import Card from './Components/cards/Card';
+import Discorver from './Components/4-discorver/Discorver';
 import './index.css'
 
 
@@ -19,10 +19,10 @@ function App() {
       <Header />
       <Hero />
       <About />
-      {/* <Discorver /> */}
-      {/* <Card />
-      <Reservation />
-      <Footer />   */}
+      <Discorver /> 
+     <Card />
+      {/* <Reservation />
+      <Footer />  */}
     </>
   )
 }

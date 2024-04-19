@@ -1,4 +1,4 @@
-import "./about.css";
+
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import about2 from "/./public/about2.jpg";
