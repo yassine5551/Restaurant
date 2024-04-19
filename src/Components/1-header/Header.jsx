@@ -1,14 +1,14 @@
-import { useState, useEffect,useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import "./header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars,faTimes } from "@fortawesome/free-solid-svg-icons";
-import logo from "/./public/logoNobg.png";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import logo from "/./public/logoNobg.webp";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const menuRef = useRef(null); // Ref for the menu box
-// for scrolling
+  // for scrolling
   useEffect(() => {
     const handleScroll = () => {
       const isScrolled = window.scrollY > 0;
@@ -24,35 +24,33 @@ function Header() {
   // for canceling the menu box
   useEffect(() => {
     const handleClickOutside = (event) => {
-        if (menuRef.current && !menuRef.current.contains(event.target)) {
-            setIsMenuOpen(false);
-        }
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setIsMenuOpen(false);
+      }
     };
 
-    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
 
     return () => {
-        document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
-}, []);
-  
-  const toggleMenu = () => {
-        
-        setIsMenuOpen(!isMenuOpen);
-        
-  };
-  
+  }, []);
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   return (
     <>
       <header className={`header  ${scrolled ? "scrolled" : ""}`}>
         <div className="logo">
-          <img src={logo} alt="" />
+          <img src={logo} alt="logo" />
         </div>
 
         <ul ref={menuRef} className={`links ${isMenuOpen ? "open" : ""}`}>
-        <button className="close-btn" onClick={toggleMenu}><FontAwesomeIcon icon={faTimes} className="close-box" /></button>
+          <button className="close-btn" onClick={toggleMenu}>
+            <FontAwesomeIcon icon={faTimes} className="close-box" />
+          </button>
           <li>
             <a href="">home</a>
           </li>
@@ -74,10 +72,8 @@ function Header() {
           <li>
             <a href="">contact</a>
           </li>
-         
         </ul>
         <div className="icons">
-          
           <FontAwesomeIcon
             className="icon menu"
             icon={faBars}
