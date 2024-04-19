@@ -25,7 +25,7 @@ function Footer() {
            px-12 py-3 text-sm font-medium
              hover:bg-red-600
              hover:text-white focus:outline-none focus:ring active:bg-red
-             text-red-700 hover:text-white transition ease-in-out "
+             text-red-700  transition ease-in-out "
         >
           Reserver Un Table
         </a>
