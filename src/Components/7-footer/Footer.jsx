@@ -1,4 +1,3 @@
-import './footer.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -9,7 +8,7 @@ function Footer() {
     <footer className=" bg-gray-900">
     <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24">
       <div className="text-center">
-        <h2 className="text-3xl font-extrabold text-white-900 sm:text-5xl" id="title">
+        <h2 className="text-3xl font-extrabold text-white-900 sm:text-5xl text-red-800" >
           WE WELCOME YOU TO VISITE OUR RESTAURANT
         </h2>
   
@@ -20,8 +19,13 @@ function Footer() {
   
         <a
               href="#"
-              id='red'
-          className="mt-8 inline-block rounded-full bg-white  border border-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-red-600 hover:text-white focus:outline-none focus:ring active:bg-red"
+              
+              className="mt-8 inline-block rounded-full
+           bg-white  border border-indigo-600 
+           px-12 py-3 text-sm font-medium
+             hover:bg-red-600
+             hover:text-white focus:outline-none focus:ring active:bg-red
+             text-red-700 hover:text-white transition ease-in-out "
         >
           Reserver Un Table
         </a>
