@@ -7,12 +7,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Card() {
   return (
     <>
-      <div className="mt-[100px] flex justify-evenly items-center gap-8">
+      <div className="mt-[100px] flex flex-col lg:flex-row justify-evenly items-center gap-8">
         <div className="flex-col text-center gap-5 ">
           <img
             src={card1}
             alt="img1"
-            className="w-[400px] h-[250px] rounded-[15px] cursor-pointer "
+            className="w-[300px] lg:w-[400px] h-[250px] rounded-[15px] cursor-pointer "
           />
           <h3 className="mt-[20px] tracking-[5px] font-medium leading-[10px] my-[5px] text-red-600">
             ROMANTIC RESTAURANT
@@ -30,7 +30,7 @@ function Card() {
           <img
             src={card2}
             alt="img2"
-            className="w-[400px] h-[250px] rounded-[15px] cursor-pointer "
+            className="w-[300px] lg:w-[400px] h-[250px] rounded-[15px] cursor-pointer "
           />
           <h3 className="mt-[20px] tracking-[5px] font-medium leading-[10px] my-[5px] text-red-600">
             DELICIOUS FOOD
@@ -48,7 +48,7 @@ function Card() {
           <img
             src={card3}
             alt="img3"
-            className="w-[400px] h-[250px] rounded-[15px] cursor-pointer "
+            className="w-[300px] lg:w-[400px] h-[250px] rounded-[15px] cursor-pointer "
           />
           <h3 className="mt-[20px] tracking-[5px] font-medium leading-[10px] my-[5px] text-red-600">
             RED WINES YOU LOVE
