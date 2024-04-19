@@ -1,7 +1,6 @@
-import "./card.css";
-import card1 from "/./public/card1.jpg";
-import card2 from "/./public/card2.jpg";
-import card3 from "/./public/card3.jpg";
+import card1 from "/./public/card1.webp";
+import card2 from "/./public/card2.webp";
+import card3 from "/./public/card3.webp";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Card() {

@@ -1,7 +1,7 @@
 
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import about2 from "/./public/about2.jpg";
+import about from "/./public/about.webp";
 function About() {
   return (
     <>
@@ -35,7 +35,7 @@ function About() {
         <div className="relative overflow-hidden w-full lg:w-[400px] h-[400px] rounded-3xl mt-6 lg:mt-0">
           <img
             className="w-full h-[400px] object-fill rounded-3xl lg:w-[400px] lg:mt-0"
-            src={about2}
+            src={about}
             alt=""
           />
           <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0 transition-opacity duration-300 flex justify-center items-center text-white hover:opacity-70">

@@ -1,11 +1,11 @@
 
-import '/./public/discover.jpg'
+import '/./public/discover.webp'
 function Discorver() {
   return (
       <>
       <div className="
           mt-[100px] w-full h-[200px] lg:h-[300px] bg-black
-          flex justify-center items-center bg-[url('/./public/discover.jpg')]
+          flex justify-center items-center bg-[url('/./public/discover.webp')]
           bg-center bg-no-repeat bg-cover bg-fixed">
               <div>
               <h3 className='font-italian mb-[10px] text-xl lg:text-2xl leading-10 text-red-600 text-center tracking-widest' >Discover</h3>

@@ -1,8 +1,8 @@
-import heroImg2 from "/./public/heroImg2.jpg";
-import s1 from "/./public/s1.jpg";
-import s2 from "/./public/s2.jpg";
-import s3 from "/./public/s3.jpg";
-import s4 from "/./public/s4.jpg";
+
+import s1 from "/./public/s1.webp";
+import s2 from "/./public/s2.webp";
+import s3 from "/./public/s3.webp";
+import s4 from "/./public/s4.webp";
 
 import React, { useRef, useState } from "react";
 // Import Swiper React components
@@ -19,28 +19,6 @@ import "./styles.css";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 function Hero() {
-  // return (
-  //   <>
-  // <div className="relative flex  justify-center items-center ">
-  //   <img src={heroImg2} alt="" />
-  //   <div className="absolute text-white uppercase text-center">
-  //     <h1 className="text-xs sm:text-xl md:text-2xl lg:text-5xl xl:text-6xl font-light md:mb-5 lg:mb-6 xl:mb-7 font-italian ">
-  //       Welcome to
-  //     </h1>
-  //     <p className="text-lg sm:text-base md:text-3xl lg:text-7xl xl:text-8xl mb-2 md:mb-5 lg:mb-6 xl:mb-7 ">
-  //       pato place
-  //     </p>
-  //     <a
-  //       className="text-[12px] sm:text-base  p-1 md:p-3  bg-red-700 hover:bg-red-600 font-light "
-  //       href="/"
-  //     >
-  //       LOOk MENU
-  //     </a>
-  //   </div>
-  // </div>;
-
-  //   </>
-  // )
   const progressCircle = useRef(null);
   const progressContent = useRef(null);
   const onAutoplayTimeLeft = (s, time, progress) => {
