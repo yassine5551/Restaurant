@@ -2,10 +2,11 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import about from "/./public/about.webp";
+import { Element } from "react-scroll";
 function About() {
   return (
     <>
-      <div
+      <Element name="about"
         className="flex flex-col-reverse lg:flex-row mt-[75px] xl:justify-evenly gap-6
       "
       >
@@ -49,7 +50,7 @@ function About() {
             </span>
           </div>
         </div>
-      </div>
+      </Element>
     </>
   );
 }

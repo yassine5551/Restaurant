@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-scroll";
 function Footer() {
   return (
     <>
@@ -17,7 +18,7 @@ function Footer() {
           ea nihil.
         </p>
   
-        <a
+        <Link to="reservation" spy="true" smooth="true"
               href="#"
               
               className="mt-8 inline-block rounded-full
@@ -28,7 +29,7 @@ function Footer() {
              text-red-700  transition ease-in-out "
         >
           Reserver Un Table
-        </a>
+        </Link>
       </div>
   
       <div

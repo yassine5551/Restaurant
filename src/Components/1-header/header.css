@@ -15,7 +15,12 @@
     
     
 }
-
+.header.scrolled .active{
+    
+    color: rgb(75, 37, 211);
+    
+    font-weight: 700;
+}
 
 /* for scrolling */
 
@@ -171,6 +176,35 @@
         justify-content: space-around;
     }
 }
+@media (max-width: 960px) {
+    .links.open{
+        width: 100vw;
+        height: 80vh;
+        position: absolute;
+        right: 0;
+        top: 0;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .menu{
+        font-size:23px;
+        
+    }
+    .links{
+        display: none;
+        
+    }
+    .icons .fl{
+        display: none;
+    }
+    .header{
+        justify-content: space-around;
+    }
+}
+
 
 @media (max-width: 500px) {
     .links.open{

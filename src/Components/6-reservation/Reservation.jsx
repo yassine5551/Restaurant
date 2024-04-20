@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import useWeb3Forms from "@web3forms/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPerson } from "@fortawesome/free-solid-svg-icons";
+import { Element } from "react-scroll";
 
 function Reservation() {
   const { register, reset, handleSubmit } = useForm();
@@ -31,7 +32,7 @@ function Reservation() {
   });
   return (
     <>
-      <section className="bg-gray-100 mt-10">
+      <Element name="reservation" className="bg-gray-100 mt-10">
         <h1 className="font-italian tracking-widest text-3xl uppercase italic font-Courgette text-red-600 pt-10 flex justify-center justify-items-center">
           Reservation
         </h1>
@@ -146,7 +147,7 @@ function Reservation() {
             </div>
           </div>
         </div>
-      </section>
+      </Element>
     </>
   );
 }

@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-scroll";
 import { useState, useEffect, useRef } from "react";
 import "./header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -52,25 +54,66 @@ function Header() {
             <FontAwesomeIcon icon={faTimes} className="close-box" />
           </button>
           <li>
-            <a href="">home</a>
+            <Link
+              to="home"
+              
+              spy={true}
+              smooth={true}
+              className="cursor-pointer"
+            >
+              home
+            </Link>
           </li>
           <li>
-            <a href="">menu</a>
+            <Link
+              to="cards"
+              activeClass="active"
+              offset={-120}
+              spy={true}
+              smooth={true}
+              className="cursor-pointer"
+            >
+              menu
+            </Link>
           </li>
           <li>
-            <a href="">reservation</a>
+            <Link
+              to="reservation"
+              activeClass="active"
+              spy={true}
+              offset={-120}
+              smooth={true}
+              className="cursor-pointer"
+            >
+              reservation
+            </Link>
           </li>
           <li>
-            <a href="">gallery</a>
+            <Link href="">gallery</Link>
           </li>
           <li>
-            <a href="">about</a>
+            <Link
+              to="about"
+              activeClass="active"
+              spy={true}
+              offset={-120}
+              smooth={true}
+              className="cursor-pointer"
+            >
+              about
+            </Link>
           </li>
           <li>
-            <a href="">blog</a>
-          </li>
-          <li>
-            <a href="">contact</a>
+            <Link
+              to="reservation"
+              activeClass="active"
+              spy={true}
+              offset={-80}
+              smooth={true}
+              className="cursor-pointer"
+            >
+              contact
+            </Link>
           </li>
         </ul>
         <div className="icons">

@@ -3,10 +3,11 @@ import card2 from "/./public/card2.webp";
 import card3 from "/./public/card3.webp";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Element } from 'react-scroll';
 function Card() {
   return (
     <>
-      <div className="mt-[100px] flex flex-col lg:flex-row justify-evenly items-center gap-8">
+      <Element name="cards" className="mt-[100px] flex flex-col lg:flex-row justify-evenly items-center gap-8">
         <div className="flex-col text-center gap-5 ">
           <img
             src={card1}
@@ -61,7 +62,7 @@ function Card() {
             <FontAwesomeIcon className="iconAr" icon={faArrowRight} />
           </a>
         </div>
-      </div>
+      </Element>
     </>
   );
 }

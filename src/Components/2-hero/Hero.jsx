@@ -3,6 +3,7 @@ import s1 from "/./public/s1.webp";
 import s2 from "/./public/s2.webp";
 import s3 from "/./public/s3.webp";
 import s4 from "/./public/s4.webp";
+import { Element } from "react-scroll";
 
 import React, { useRef, useState } from "react";
 // Import Swiper React components
@@ -26,7 +27,7 @@ function Hero() {
     progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
   };
   return (
-    <>
+    <Element name="home">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -126,7 +127,7 @@ function Hero() {
           <span ref={progressContent}></span>
         </div>
       </Swiper>
-    </>
+    </Element>
   );
 }
 
