@@ -54,18 +54,14 @@ function Header() {
             <FontAwesomeIcon icon={faTimes} className="close-box" />
           </button>
           <li>
-            <Link
-              to="home"
-              
-              spy={true}
-              smooth={true}
-              className="cursor-pointer"
-            >
+            <Link to="home" spy={true} smooth={true} hashSpy={true} toHash="home" className="cursor-pointer">
               home
             </Link>
           </li>
           <li>
             <Link
+              hashSpy={true}
+              toHash="cards"
               to="cards"
               activeClass="active"
               offset={-120}
@@ -78,6 +74,8 @@ function Header() {
           </li>
           <li>
             <Link
+              hashSpy={true}
+              toHash="reservation"
               to="reservation"
               activeClass="active"
               spy={true}
@@ -93,6 +91,8 @@ function Header() {
           </li>
           <li>
             <Link
+              hashSpy={true}
+              toHash="about"
               to="about"
               activeClass="active"
               spy={true}
@@ -105,8 +105,9 @@ function Header() {
           </li>
           <li>
             <Link
+              hashSpy={true}
+              toHash="reservation"
               to="reservation"
-              activeClass="active"
               spy={true}
               offset={-80}
               smooth={true}
