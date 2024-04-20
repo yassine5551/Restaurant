@@ -1,6 +1,7 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import about from "/./public/about.webp";
+import about2 from "/./public/about2.webp";
 import { Element, Link } from "react-scroll";
 function About() {
   return (
@@ -33,26 +34,58 @@ function About() {
             <FontAwesomeIcon className="ml-[5px]" icon={faArrowRight} />
           </a>
         </div>
+        <a className=" cursor-pointer group relative block">
         <div className="relative overflow-hidden w-full lg:w-[400px] h-[400px] rounded-3xl mt-6 lg:mt-0">
-          <img
-            className="w-full h-[400px] object-fill rounded-3xl lg:w-[400px] lg:mt-0"
+          {/* <img
+            className="w-full h-[400px] object-fill rounded-3xl lg:w-[400px] lg:mt-0 object-cover opacity-100 group-hover:opacity-0 "
             src={about}
             alt=""
-          />
-          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0 transition-opacity duration-300 flex justify-center items-center text-white hover:opacity-70">
-            <span className="text-xl">
-              <Link
-                to="reservation"
-                spy={true}
-                smooth={true}
-                offset={-100}
-                className="text-red-700 text-2xl hover:text-yellow-100 uppercase underline cursor-pointer  "
-              >
-                Reserver
-              </Link>
+          /> */}
+          <img
+              src={about}
+              alt=""
+              className="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
+            />
+
+            <img
+              src={about2}
+              alt=""
+              className="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
+            />
+
+          
+          </div>
+          </a>
+        {/* <a href="#" className="group relative block">
+          <div className="relative h-[350px] sm:h-[450px]">
+            <img
+              src={about}
+              alt=""
+              className="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
+            />
+
+            <img
+              src={about2}
+              alt=""
+              className="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
+            />
+          </div>
+
+          <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
+            <h3 className="text-xl font-medium text-white">
+              Skinny Jeans Blue
+            </h3>
+
+            <p className="mt-1.5 text-pretty text-xs text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos sequi dicta impedit aperiam ipsum!
+            </p>
+
+            <span className="mt-3 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
+              Shop Now
             </span>
           </div>
-        </div>
+        </a> */}
       </Element>
     </>
   );
