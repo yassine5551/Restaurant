@@ -3,11 +3,15 @@ import card2 from "/./public/card2.webp";
 import card3 from "/./public/card3.webp";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Element } from 'react-scroll';
+import { Element, Link } from "react-scroll";
+
 function Card() {
   return (
     <>
-      <Element name="cards" className="mt-[100px] flex flex-col lg:flex-row justify-evenly items-center gap-8">
+      <Element
+        name="cards"
+        className="mt-[100px] flex flex-col lg:flex-row justify-evenly items-center gap-8"
+      >
         <div className="flex-col text-center gap-5 ">
           <img
             src={card1}
@@ -21,10 +25,10 @@ function Card() {
             Phasellus lorem enim, luctus ut velit eget, <br /> con-vallis
             egestas eros.
           </p>
-          <a href="" className="text-black w-fit hover:text-red-600">
+          <Link href="" className="text-black w-fit hover:text-red-600">
             LEARN MORE{" "}
             <FontAwesomeIcon className="iconAr" icon={faArrowRight} />
-          </a>
+          </Link>
         </div>
         <div className="flex-col text-center gap-5">
           <img
@@ -39,10 +43,10 @@ function Card() {
             Phasellus lorem enim, luctus ut velit eget, <br /> con-vallis
             egestas eros.
           </p>
-          <a href="" className="text-black w-fit hover:text-red-600">
+          <Link href="" className="text-black w-fit hover:text-red-600">
             LEARN MORE{" "}
             <FontAwesomeIcon className="iconAr" icon={faArrowRight} />
-          </a>
+          </Link>
         </div>
         <div className="flex-col text-center gap-5">
           <img
@@ -57,10 +61,10 @@ function Card() {
             Phasellus lorem enim, luctus ut velit eget, <br /> con-vallis
             egestas eros.
           </p>
-          <a href="" className="text-black w-fit hover:text-red-600">
+          <Link  className="text-black w-fit hover:text-red-600">
             LEARN MORE
             <FontAwesomeIcon className="iconAr" icon={faArrowRight} />
-          </a>
+          </Link>
         </div>
       </Element>
     </>
