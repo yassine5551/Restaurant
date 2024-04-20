@@ -47,7 +47,7 @@ function Header() {
           <img src={logo} alt="logo" />
         </div>
 
-        <ul ref={menuRef} className={`links ${isMenuOpen ? "open" : ""}`}>
+        <ul ref={menuRef} className={`links ${isMenuOpen ? "open" : ""} `}>
           <button className="close-btn" onClick={toggleMenu}>
             <FontAwesomeIcon icon={faTimes} className="close-box" />
           </button>
