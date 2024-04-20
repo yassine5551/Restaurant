@@ -94,9 +94,6 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link href="">gallery</Link>
-          </li>
-          <li>
             <Link
               hashSpy={true}
               toHash="about"
