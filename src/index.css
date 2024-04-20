@@ -12,12 +12,7 @@
     list-style: none;
 }
 
-html {
-  scroll-behavior: smooth;
-  overflow-y: scroll; /* Ensures the scroll bar is always visible */
-}
 body{
-    overscroll-behavior-y: contain;
     background-color: var(--bg-color);
     font-family: "Rubik", sans-serif;
 

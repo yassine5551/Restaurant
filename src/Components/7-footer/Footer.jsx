@@ -19,14 +19,14 @@ function Footer() {
         </p>
   
         <Link to="reservation" spy="true" smooth="true"
-              href="#"
+              offset={-100}
               
               className="mt-8 inline-block rounded-full
            bg-white  border border-indigo-600 
            px-12 py-3 text-sm font-medium
              hover:bg-red-600
              hover:text-white focus:outline-none focus:ring active:bg-red
-             text-red-700  transition ease-in-out "
+             text-red-700  transition ease-in-out cursor-pointer "
         >
           Reserver Un Table
         </Link>
