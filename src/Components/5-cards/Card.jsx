@@ -4,6 +4,9 @@ import card3 from "/./public/card3.webp";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Element, Link } from "react-scroll";
+import menuMain  from "/./public/menuMain.pdf"
+import foodMenu  from "/./public/foodMenu.pdf"
+import jusMenu  from "/./public/jusMenu.pdf"
 
 function Card() {
   return (
@@ -25,10 +28,10 @@ function Card() {
             Phasellus lorem enim, luctus ut velit eget, <br /> con-vallis
             egestas eros.
           </p>
-          <Link href="" className="text-black w-fit hover:text-red-600">
-            LEARN MORE{" "}
+          <a href={jusMenu} download={jusMenu.pdf} target="_blank" className="text-black w-fit hover:text-red-600">
+            Check Jus Menu 
             <FontAwesomeIcon className="iconAr" icon={faArrowRight} />
-          </Link>
+          </a>
         </div>
         <div className="flex-col text-center gap-5">
           <img
@@ -43,10 +46,10 @@ function Card() {
             Phasellus lorem enim, luctus ut velit eget, <br /> con-vallis
             egestas eros.
           </p>
-          <Link href="" className="text-black w-fit hover:text-red-600">
-            LEARN MORE{" "}
+          <a href={menuMain} download={menuMain.pdf} target="_blank" className="text-black w-fit hover:text-red-600">
+          Main Dishes
             <FontAwesomeIcon className="iconAr" icon={faArrowRight} />
-          </Link>
+          </a>
         </div>
         <div className="flex-col text-center gap-5">
           <img
@@ -61,10 +64,10 @@ function Card() {
             Phasellus lorem enim, luctus ut velit eget, <br /> con-vallis
             egestas eros.
           </p>
-          <Link  className="text-black w-fit hover:text-red-600">
-            LEARN MORE
+          <a href={foodMenu} download={foodMenu.pdf} target="_blank"  className="text-black w-fit hover:text-red-600">
+          Check Food Menu 
             <FontAwesomeIcon className="iconAr" icon={faArrowRight} />
-          </Link>
+          </a>
         </div>
       </Element>
     </>
