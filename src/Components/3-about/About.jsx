@@ -1,4 +1,3 @@
-
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import about from "/./public/about.webp";
@@ -6,7 +5,8 @@ import { Element, Link } from "react-scroll";
 function About() {
   return (
     <>
-      <Element name="about"
+      <Element
+        name="about"
         className="flex flex-col-reverse lg:flex-row mt-[75px] xl:justify-evenly gap-6
       "
       >
@@ -42,8 +42,11 @@ function About() {
           <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0 transition-opacity duration-300 flex justify-center items-center text-white hover:opacity-70">
             <span className="text-xl">
               <Link
-                to="reservation" spy={true} smooth={true}
-                className="text-red-700 text-2xl hover:text-yellow-100 uppercase underline  "
+                to="reservation"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                className="text-red-700 text-2xl hover:text-yellow-100 uppercase underline cursor-pointer  "
               >
                 Reserver
               </Link>
