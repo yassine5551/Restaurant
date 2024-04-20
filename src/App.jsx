@@ -12,6 +12,7 @@ import Sub from "./Components/subFooter/Sub";
 
 
 
+
 function App() {
 
   return (
@@ -21,7 +22,7 @@ function App() {
       <Hero />
       <About />
       <Discorver /> 
-     <Card />
+      <Card />
       <Reservation />
       <Footer /> 
       <Sub />
